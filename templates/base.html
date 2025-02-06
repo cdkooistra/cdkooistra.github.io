@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+    <div class="wrapper">
+      <header>
+        <p>{{ config.description }}</p>
+
+        <p class="view">
+            <a href="https://github.com/cdkooistra/">GitHub.</a>
+        </p>
+      </header>
+
+      <section> {% block content %} {% endblock content %} </section>
+
+      <footer>
+        <p>
+            Powered by <a href="https//www.getzola.org/">Zola</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
