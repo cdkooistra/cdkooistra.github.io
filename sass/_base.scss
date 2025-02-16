@@ -1,0 +1,30 @@
+@use "variables";
+
+header {
+  width: 270px;
+  float: left;
+  position: fixed;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px;
+  font-family: font-family;
+  color: #222;
+  font-weight: 400;
+}
+
+section {
+  width: 500px;
+  float: right;
+  padding-bottom: 50px;
+}
+
+footer {
+  width: 270px;
+  float: left;
+  position: fixed;
+  bottom: 50px;
+}
