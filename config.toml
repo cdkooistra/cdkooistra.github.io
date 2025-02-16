@@ -1,6 +1,6 @@
 base_url = "https://connorkooistra.github.io"
 title = "Connor Kooistra"
-description = "This is my personal portfolio"
+description = "Welcome to my personal resume page. Here you can find information about my professional experience, skills, and projects."
 author = "Connor Kooistra"
 
 compile_sass = true
