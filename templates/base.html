@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ config.description }}" />
+    <title>{{ config.title }}</title>
+    <link rel="stylesheet" href="{{ get_url(path='main.css') }}">
+  </head>
+
+  <body>
+    <header>
+      {% block header %}
+      {% endblock %}
+    </header>
+    <section>
+      {% block content %} 
+      {% endblock %}
+    </section>
+    <footer>
+      {% block footer %}
+      {% endblock %}
+    </footer>
+  </body>
+</html>
