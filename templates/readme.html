@@ -1,0 +1,4 @@
+<div class="readme">
+    {% set readme = get_page(path="readme.md") %}
+    {{ readme.content | markdown | safe }}
+</div>

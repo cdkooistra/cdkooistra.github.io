@@ -5,7 +5,9 @@
 {% endblock %}
 
 {% block content %}
-{{ section.content | safe }}
+  {% set readme = get_page(path="readme.md") %}
+  {{ readme.content | markdown | safe }}
+  {{ section.content | markdown | safe }}
 {% endblock content %}
 
 {% block footer %}
