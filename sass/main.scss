@@ -1,5 +1,6 @@
-@use "variables";
-@use "base";
+@use "base/variables";
+@use "components/portrait";
+@use "components/links";
+@use "utils/animations";
+@use "utils/media";
 @use "layout";
-@use "portrait";
-@use "animations";

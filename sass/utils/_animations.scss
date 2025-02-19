@@ -3,20 +3,10 @@
     transform: translateY(15px);
   }
   
-  // Header animation
-  header {
-    animation: fadeInUp 0.5s ease-in-out;
-  }
-  
-  // Section content animation
-  section {
-    animation: fadeInUp 0.5s ease-in-out;
-  }
-  
-  // Footer animation
+  header,
+  section,
   footer {
     animation: fadeInUp 0.5s ease-in-out;
-    opacity: 1;
   }
     
   @keyframes fadeInUp {
@@ -29,3 +19,7 @@
       transform: translateY(0);
     }
   }
+
+.preload {
+  visibility: hidden;
+}

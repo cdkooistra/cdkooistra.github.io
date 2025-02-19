@@ -1,0 +1,25 @@
+@use "../base/variables" as *;
+@use "../utils/media" as *;
+
+.portrait {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Subtle shadow
+    display: block;
+    margin: 0 auto;
+}
+
+@include respond(medium) {
+    .portrait {
+        width: 275px;
+    }
+}
+
+@include respond(small) {
+    .portrait {
+        width: 225px;
+    }
+}
