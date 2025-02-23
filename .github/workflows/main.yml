@@ -2,8 +2,8 @@ on:
     push:
         branches:
             - main
-    schedule:
-        - cron: "0 12 * * *"
+    repository_dispatch:
+        types: [update_readme]
 
 name: Build and Deploy GH Pages
 
