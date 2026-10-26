@@ -28,3 +28,12 @@ content/readme.md
 
 # Nix related
 .direnv
+
+# devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# RenderCV
+resume/rendercv_output/
+static/resume.pdf
