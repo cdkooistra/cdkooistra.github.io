@@ -35,7 +35,7 @@ jobs:
       - name: Build resume PDF
         run: |
           pip install "rendercv[full]"
-          rendercv render resume/cv.yaml --output-folder resume/rendercv_output
+          rendercv render resume/cv.yaml --output-folder "$PWD/resume/rendercv_output"
           cp resume/rendercv_output/*_CV.pdf static/resume.pdf
 
       - name: Build and Deploy with Zola
