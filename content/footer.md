@@ -3,4 +3,4 @@ title: footer
 template: footer.html
 ---
 
-© 2025 Connor Kooistra
+© 2026 Connor Kooistra

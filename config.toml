@@ -6,8 +6,8 @@ author = "Connor Kooistra"
 compile_sass = true
 build_search_index = false
 
-[markdown]
-highlight_code = true
+[markdown.highlighting]
+theme = "catppuccin-mocha"
 
 [extra]
 github_avatar = "https://github.com/cdkooistra.png"

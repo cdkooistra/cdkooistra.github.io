@@ -1,15 +1,7 @@
 {% extends "base.html" %}
 
-{% block header %}
-  {% include "header.html" %}
-{% endblock %}
-
 {% block content %}
   {% set readme = get_page(path="readme.md") %}
   {{ readme.content | markdown | safe }}
   {{ section.content | markdown | safe }}
 {% endblock content %}
-
-{% block footer %}
-  {% include "footer.html" %}
-{% endblock %}
