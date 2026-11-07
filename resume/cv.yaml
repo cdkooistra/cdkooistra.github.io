@@ -42,10 +42,10 @@ cv:
         location: Amsterdam, NL
         summary: Freelance software engineering for Dutch organisations, focused on secure and reliable data pipelines, APIs and system integrations in Rust and Python.
         highlights:
-          - Designed and built a fault-tolerant CRM-to-portal synchronisation service in Rust on Azure. It is at-least-once, idempotent and fully resyncable, with a durable queue between reading and writing.
+          - Built a synchronisation service in Rust on Azure that syncs Dataverse to an application using change tracking and idempotent, queue-based delivery.
           - Built a state-aware, resumable migration framework in Rust that moves large media collections into a digital asset management system.
-          - Built a data integration platform for scheduled, auditable syncs between business systems. This platform reuses an existing no-code workflow tool (n8n) as the front end, allowing non-technical users to build their own data pipelines.
-          - Developed tooling around a digital asset management platform. This includes API client libraries, server-side plugins (PHP) and workflow automation for a media-archive client.
+          - Built a data integration platform for scheduled, auditable syncs between applications. This platform reuses an existing no-code workflow tool (n8n) as the front end, allowing non-technical users to build their own data pipelines.
+          - Developed tooling around a digital asset management platform. This includes API client libraries (Rust, Python), server-side plugins (PHP) and workflow automation for a media-archive client.
       - company: MovingMedia
         position: Systems Engineer
         start_date: 2023-10
