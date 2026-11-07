@@ -16,7 +16,7 @@ cv:
   sections:
     education:
       - institution: Vrije Universiteit
-        area: Computer Science
+        area: Computer Security
         degree: MSC
         date:
         start_date: 2024-09
